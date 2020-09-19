@@ -1,0 +1,136 @@
+.list-item{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: white;
+    margin: 1vh auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border-style: solid;
+    border-color: rgb(102, 172, 205);
+    border-radius: 10px;
+}
+
+.list-item .checkbox_Text {
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+   
+}
+.list-item .checkbox_Text p {
+    width: 90%;
+    margin-Left: 1vh;
+    text-overflow:ellipsis;
+    font-size: 100%;
+    overflow: hidden;
+    font-weight: bold;
+   
+
+}
+
+.list-item .checkbox_Text .archived {
+    width: 90%;
+    color: rgb(124, 124, 128);
+    margin-Left: 1vh;
+    text-overflow:ellipsis;
+    font-size: 100%;
+    overflow: hidden;
+    font-weight: bold;
+
+}
+
+
+.starUnpinned{
+    color: rgba(134, 133, 133,0.5)
+    }
+
+.starUnpinned:hover {
+    color: rgb(0, 65, 77);
+}
+
+.starPinned{
+    color: rgb(0, 65, 77);
+    }
+
+
+
+
+
+
+ 
+
+.emptyListWrapper{
+    margin: 5vh auto;
+    text-align: center;
+}
+
+
+.emptyListWrapper .tickIcon{
+    transform: scale(3.0);
+    color: green;
+    margin-bottom: 5vh;
+
+}
+
+.emptyListWrapper .emptyListText{
+    font-size: 5vh;
+}
+
+.loader{
+   
+    text-align: center;
+    margin-top: 5vh;
+}
+
+
+.newTaskContainer{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 40%;
+    padding: 5vh;
+    padding-top: 3vh;
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+    
+
+}
+
+.newTaskContainer .newTaskHeading {
+
+    font-size: 4vh;
+    margin-bottom: 15vh;
+    color: black
+}
+
+
+.newTaskContainer input[type = text]{
+
+    padding-left: 2vh;
+    padding-right: 2vh;
+    font-size: 2.5vh;
+    margin-bottom: 6vh;
+   
+}
+
+.newTaskContainer .buttonContainer{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+    margin: 0 auto
+}
+
+.newTaskContainer .buttonContainer Button{ 
+    width: 8vw;
+    height: 5vh;
+}
+
+
+/*# sourceMappingURL=vendors~main.c3c865ae.chunk.css.map*/
